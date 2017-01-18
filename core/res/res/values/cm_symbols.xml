@@ -101,9 +101,6 @@
     <!-- Advanced settings switch -->
     <java-symbol type="string" name="lock_to_app_toast_no_navbar" />
 
-    <!-- PlatLogo -->
-    <java-symbol type="drawable" name="platlogo_cm" />
-
     <!-- Automatic brightness enhancements -->
     <java-symbol type="integer" name="config_autoBrightnessBrighteningLightFastDebounce"/>
 
@@ -145,4 +142,7 @@
 
     <!--Exposed style for power menu -->
     <java-symbol type="style" name="Theme.Power.Dialog" />
+
+    <!-- On-device lights (LED) capabilities -->
+    <java-symbol type="array" name="config_deviceLightCapabilities" />
 </resources>
